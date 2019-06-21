@@ -128,15 +128,11 @@ async def on_message(message):
             await message.delete()
 
 
-    if str( message.channel ) in channels :
-        if message.content.find ("!morphalange") != -1:
-            await message.channel.send(file=discord.File('heros/morphalange.jpg'), delete_after = 3600)
-            await asyncio.sleep(3600)
-            await message.delete()
+
 
     if str( message.channel ) in channels :
         if message.content.find ("!betedesneiges") != -1:
-            await message.channel.send(file=discord.File('heros/bneige.jpg'), delete_after = 3600)
+            await message.channel.send(file=discord.File('heros/Bneige.jpg'), delete_after = 3600)
             await asyncio.sleep(3600)
             await message.delete()
 
