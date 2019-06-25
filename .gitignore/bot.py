@@ -56,7 +56,7 @@ async def on_message(message):
         
         
     if str( message.channel ) in channels and str(message.author) in v_u :
-       if message.content.find ("!belette") != -1:
+       if message.content.find ("!otari") != -1:
            await message.channel.send("<@415175231565463552> !!!!! ca va ?", delete_after = 3600)
            await asyncio.sleep(3600)
            await message.delete()
