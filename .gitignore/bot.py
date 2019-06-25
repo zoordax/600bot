@@ -42,24 +42,6 @@ async def on_message(message):
             await message.channel.send( content=None , embed=embed )
 
 
-    if str( message.channel ) in channels and str(message.author) in v_u:
-        if message.content.find ("$loutre") != -1:
-            await message.channel.send("<@415175231565463552> koya est out !!!", delete_after=15)
-            await asyncio.sleep(15)
-            await message.delete()
-            
-    if str( message.channel ) in channels and str(message.author) in v_u:
-        if message.content.find ("!zoord") != -1:
-            await message.channel.send("<zoor le meillor  !!!")
-            await asyncio.sleep(3600)
-            await message.delete()
-        
-        
-    if str( message.channel ) in channels and str(message.author) in v_u :
-       if message.content.find ("!otari") != -1:
-           await message.channel.send("<@415175231565463552> !!!!! ca va ?", delete_after = 3600)
-           await asyncio.sleep(3600)
-           await message.delete()
           
         
     if str( message.channel ) in channels and str(message.author) in v_u :
